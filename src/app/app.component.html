@@ -1,0 +1,24 @@
+<br>
+<h1>Hey There</h1>
+<ejs-maps id='rn-container' style='display:block' [zoomSettings]=zoomSettings>
+    <e-layers>
+        <e-layer [urlTemplate]=urlTemplate></e-layer>
+    </e-layers>
+</ejs-maps>
+
+<ejs-maps id='rn-container'>
+    <e-layers>
+   <e-layer [shapeData] = 'shapeData' [shapeSettings] ='shapeSettings'></e-layer>
+   <e-layer [shapeData] = 'shapeData1' [shapeSettings] ='shapeSettings1' [type] = 'type'></e-layer>
+   </e-layers>
+   </ejs-maps>
+   
+<!-- <form aria-disabled="true"
+    style="padding: 0px 0px 15px 10px;"><br>
+    <div class="form-field">
+        <mat-form-field appearance="outline">
+            <mat-label>First Name</mat-label>
+            <input matInput type="text" formControlName="userFirstName" placeholder="First Name">
+        </mat-form-field>
+    </div>
+</form> -->
